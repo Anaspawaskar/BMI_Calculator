@@ -4,6 +4,7 @@ html{
 }
 
 h1{
+    color: #1a3cff;
     text-align: center;
 }
 
@@ -21,8 +22,12 @@ button{
     margin-top: 1.4srem;
     height: 2.3rem;
     width: 7rem;
-    background-color: #2121219e;
+    background-color: #212121;
     color: #fff;
+}
+.result{
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
 
 
@@ -34,6 +39,7 @@ form{
     margin-top: 40px;
 }
 h2 {
+    color: #1a3cff;
     margin-top: 50px;
 }
 p{
