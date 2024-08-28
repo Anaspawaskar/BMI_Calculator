@@ -1,0 +1,41 @@
+html{
+    margin: 0;
+    background-color: #56e4c1;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    font-size: 1.3rem;
+}
+input{
+    height: 1.2rem;
+}
+
+::placeholder{
+    text-align: center;
+}
+button{
+    margin-top: 1.4srem;
+    height: 2.3rem;
+    width: 7rem;
+    background-color: #2121219e;
+    color: #fff;
+}
+
+
+
+
+
+form{
+    text-align: center;
+    margin-top: 40px;
+}
+h2 {
+    margin-top: 50px;
+}
+p{
+    font-size: 1.3rem;
+}
