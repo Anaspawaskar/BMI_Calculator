@@ -1,47 +1,92 @@
-html{
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
-    background-color: #56e4c1;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1{
-    color: #1a3cff;
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
     text-align: center;
 }
 
-label{
-    font-size: 1.3rem;
-}
-input{
-    height: 1.2rem;
+h1 {
+    color: #333;
+    margin-bottom: 20px;
 }
 
-::placeholder{
-    text-align: center;
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
 }
-button{
-    margin-top: 1.4srem;
-    height: 2.3rem;
-    width: 7rem;
-    background-color: #212121;
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
     color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
-.result{
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
     margin-top: 20px;
-    margin-bottom: -10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
 }
 
-
-
-
-
-form{
-    text-align: center;
-    margin-top: 40px;
+.weight.guide {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-h2 {
-    color: #1a3cff;
-    margin-top: 50px;
+
+.weight.guide h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #007BFF;
 }
-p{
-    font-size: 1.3rem;
+
+.weight.guide p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
 }
